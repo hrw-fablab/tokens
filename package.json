@@ -1,0 +1,25 @@
+{
+	"name": "tokens",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hrw-fablab/tokens.git"
+	},
+	"author": "Max Graw",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hrw-fablab/tokens/issues"
+	},
+	"homepage": "https://github.com/hrw-fablab/tokens#readme",
+	"devDependencies": {
+		"postcss": "^8.4.5"
+	},
+	"dependencies": {
+		"postcss-import": "^14.0.2"
+	}
+}
