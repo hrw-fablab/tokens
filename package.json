@@ -1,10 +1,9 @@
 {
 	"name": "tokens",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "HRW-Fablab Desing Tokens",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "postcss src/index.css -o styles.min.css"
 	},
 	"repository": {
 		"type": "git",

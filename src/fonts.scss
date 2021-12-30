@@ -1,0 +1,28 @@
+:where(html) {
+	--font-sans: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+	--font-serif: ui-serif,serif;
+	--font-mono: Dank Mono,Operator Mono,Inconsolata,Fira Mono,ui-monospace,SF Mono,Monaco,Droid Sans Mono,Source Code Pro,monospace;
+
+	--font-weight-1: 100;
+	--font-weight-2: 200;
+	--font-weight-3: 300;
+	--font-weight-4: 400;
+	--font-weight-5: 500;
+	--font-weight-6: 600;
+	--font-weight-7: 700;
+	--font-weight-8: 800;
+	--font-weight-9: 900;
+
+	--font-size-1: clamp(0.7rem, 0.66rem + 0.2vw, 0.8rem);
+	--font-size-2: clamp(0.88rem, 0.83rem + 0.24vw, 1rem);
+	--font-size-3: clamp(1.09rem, 1rem + 0.47vw, 1.33rem);
+	--font-size-4: clamp(1.37rem, 1.21rem + 0.8vw, 1.78rem);
+	--font-size-5: clamp(1.71rem, 1.45rem + 1.29vw, 2.37rem);
+	--font-size-6: clamp(2.14rem, 1.74rem + 1.99vw, 3.16rem);
+	--font-size-7: clamp(2.67rem, 2.07rem + 3vw, 4.21rem);
+	--font-size-8: clamp(3.34rem, 2.45rem + 4.43vw, 5.61rem);
+
+	--font-lineheight-0: 1.5;
+
+	--font-size-fluid-0: clamp(1.5rem, 4vw, 1.7rem);
+}
