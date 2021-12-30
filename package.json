@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "HRW-Fablab Desing Tokens",
 	"scripts": {
-		"build": "postcss src/index.css -o styles.min.css"
+		"build": "postcss src/index.scss -o styles.css"
 	},
 	"repository": {
 		"type": "git",
